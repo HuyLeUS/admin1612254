@@ -1,0 +1,66 @@
+  <div class="widget-body p-14">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Password</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2356</td>
+                            <td>dummy text </td>
+
+                        </tr>
+                        <tr>
+                            <td>4589</td>
+                            <td>Lorem Ipsum</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>3269</td>
+                            <td>specimen book</td>
+
+                        </tr>
+                        <tr>
+                            <td>5126</td>
+                            <td>Letraset sheets</td>
+
+                        </tr>
+                        <tr>
+                            <td>7425</td>
+                            <td>PageMaker</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+  <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+    <!--// Sidebar-nav Js -->
+
+    <!-- dropdown nav -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- //dropdown nav -->
+
+    <!-- Js for bootstrap working-->
+    <script src="js/bootstrap.min.js"></script>
